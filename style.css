@@ -1,0 +1,115 @@
+@font-face {
+  font-family: domine;
+  src: url(fonts/Domine-Regular.ttf);
+}
+@font-face {
+font-family: opensans;
+src:url(fonts/OpenSans-Regular.ttf);
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  font-family: domine;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-top: 110px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+body{
+  width: auto;
+  height: auto;
+  background-image:linear-gradient(90deg, #3023ae,#c86dd7);
+}
+#containor, #containor1
+{
+  width:440px;
+  height: 315px;
+  border-radius: 4px;
+  padding: 25px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  margin:0px auto;
+
+}
+
+#loginform input[type="email"], input[type="password"]
+{
+  width:100%;
+  height:60px;
+  border-radius: 4px;
+  border: 1px solid;
+  background-color: #ffffff;
+  opacity: 0.5;
+  font-size: 20px;
+}
+.empty1
+{
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+.empty2
+{
+  margin-bottom: 10px;
+}
+.empty3
+{
+  margin-left: 289px;
+  margin-bottom: 20px;
+}
+
+#loginform a
+{
+  width: 394px;
+  height: 60px;
+  font-family:opensans;
+  color: #9000ff;
+
+}
+#loginform input[type="submit"]
+{
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  margin-top:65px;
+  background-color: #a428ff;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: opensans;
+
+}
+h4{
+  opacity: 0.75;
+  font-family:opensans;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top: 70px;
+  margin-bottom: 44px;
+}
+#signup{
+  text-align: center;
+}
+#signup input[type="submit"], #loginform .em4
+{
+
+  width: 241px;
+  height: 46px;
+  border-radius: 4px;
+  border: solid 1px #ffffff;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+.em2, .em1
+{
+  margin-bottom: 15px;
+  font-family: opensans;
+}
