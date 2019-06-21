@@ -4,23 +4,19 @@
 }
 @font-face {
 font-family: opensans;
-src:url(fonts/OpenSans-Regular.ttf);
+src: url(fonts/OpenSans-Regular.ttf);
 }
-h1{
+#head , #head1
+{
   text-align: center;
   font-size: 50px;
   color: #ffffff;
   font-family: domine;
-  font-style: normal;
   font-weight: bold;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  padding-top: 110px;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  margin-top: 150px;
+  margin-bottom:70px;
 }
-body{
+#back, #back1{
   width: auto;
   height: auto;
   background-image:linear-gradient(90deg, #3023ae,#c86dd7);
@@ -37,7 +33,7 @@ body{
 
 }
 
-#loginform input[type="email"], input[type="password"]
+#loginform input[type="email"], input[type="password"], #loginform1 input[type="email"], input[type="password"]
 {
   width:100%;
   height:60px;
@@ -47,58 +43,57 @@ body{
   opacity: 0.5;
   font-size: 20px;
 }
-.empty1
+.em2, .empty2, .empty4, .em3
 {
-  margin-top: 10px;
-  margin-bottom: 18px;
-}
-.empty2
-{
-  margin-bottom: 10px;
-}
-.empty3
-{
-  margin-left: 289px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-#loginform a
-{
-  width: 394px;
-  height: 60px;
+.empty3{
   font-family:opensans;
-  color: #9000ff;
-
+  text-align: center;
+}
+.em4
+{
+  margin-top:35px;
 }
 #loginform input[type="submit"]
 {
   width: 100%;
   height: 60px;
   border-radius: 4px;
-  margin-top:65px;
+  margin-top:84px;
   background-color: #a428ff;
   color: #ffffff;
   font-size: 18px;
   font-family: opensans;
-
 }
-h4{
+#loginform1 input[type="submit"]
+{
+  width:100%;
+  height:60px;
+  border-radius: 4px;
+
+  color: #ffffff;
+  background-color:#a428ff;
+  font-family: opensans;
+  font-size: 18px;
+}
+
+h4
+{
   opacity: 0.75;
   font-family:opensans;
   font-size: 16px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
   margin-top: 70px;
   margin-bottom: 44px;
 }
-#signup{
+#signup, #signup1
+{
   text-align: center;
 }
-#signup input[type="submit"], #loginform .em4
+#signup input[type="submit"], #signup1 input[type="submit"]
 {
 
   width: 241px;
@@ -107,9 +102,4 @@ h4{
   border: solid 1px #ffffff;
   background-color: rgba(255, 255, 255, 0.05);
   color: white;
-}
-.em2, .em1
-{
-  margin-bottom: 15px;
-  font-family: opensans;
 }
