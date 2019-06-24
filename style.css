@@ -6,6 +6,7 @@
 font-family: opensans;
 src: url(fonts/OpenSans-Regular.ttf);
 }
+
 #head , #head1
 {
   text-align: center;
@@ -15,12 +16,15 @@ src: url(fonts/OpenSans-Regular.ttf);
   font-weight: bold;
   margin-top: 150px;
   margin-bottom:70px;
+
 }
 #back, #back1{
   width: auto;
   height: auto;
   background-image:linear-gradient(90deg, #3023ae,#c86dd7);
+
 }
+
 #containor, #containor1
 {
   width:440px;
@@ -30,7 +34,11 @@ src: url(fonts/OpenSans-Regular.ttf);
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
   background-color: #ffffff;
   margin:0px auto;
-
+  transition: width 2s;
+}
+.containor:hover
+{
+  width: 200px;
 }
 
 #loginform input[type="email"], input[type="password"], #loginform1 input[type="email"], input[type="password"]
@@ -42,15 +50,25 @@ src: url(fonts/OpenSans-Regular.ttf);
   background-color: #ffffff;
   opacity: 0.5;
   font-size: 20px;
+  text-align: center;
 }
 .em2, .empty2, .empty4, .em3
 {
   margin-top: 20px;
+  text-align: center;
 }
 
-.empty3{
+.empty3
+{
+  float: right;
   font-family:opensans;
   text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.empty4{
+  transition: all 0.3s ease-out;
 }
 .em4
 {
@@ -79,7 +97,7 @@ src: url(fonts/OpenSans-Regular.ttf);
   font-size: 18px;
 }
 
-h4
+.or, .or1
 {
   opacity: 0.75;
   font-family:opensans;
@@ -102,4 +120,108 @@ h4
   border: solid 1px #ffffff;
   background-color: rgba(255, 255, 255, 0.05);
   color: white;
+}
+#home-body
+{
+  background-image: url("https://source.unsplash.com/user/erondu/1920x1080");
+  margin: 0 auto;
+}
+  #home-body:after
+  {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: inset 0px 0px 200px black;
+}
+
+
+#containor2 .nm
+{
+  font-family: domine;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 5px;
+  font-stretch:ultra-expanded;
+  line-height: normal;
+  color: black;
+  -webkit-text-stroke: 3px white;
+}
+
+#containor2 .uid
+{
+  color: white;
+  font-size: 20px;
+  font-family: opensans;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  -webkit-text-stroke: 1px #a428;
+  margin: 10px;
+
+}
+#containor2 .out, a{
+  font-family: opensans;
+  text-align: center;
+  text-decoration: none;
+}
+#containor2 .out
+{
+  margin: 10px;
+}
+
+
+.image1
+{
+  margin: 0 auto;
+}
+#containor3
+{
+  width:400px;
+  height: 600px;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: opensans;
+  font-size: 24px;
+  color: black;
+}
+#form input[type="text"]
+{
+width: 259px;
+height:46px;
+border:  1px solid;
+border-radius: 20px;
+text-align: center;
+margin-top: 12px;
+}
+#form input[type="submit"]
+{
+  width: 100px;
+  height:46px;
+  border:  1px solid;
+  border-radius: 20px;
+}
+.for
+{
+margin-left:740px;
+}
+#containor3 p
+{
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin:0 auto;
+  padding: 10px;
+}
+#containor3 hr
+{
+  margin: 0 auto;
+  opacity: 0.5;
 }
